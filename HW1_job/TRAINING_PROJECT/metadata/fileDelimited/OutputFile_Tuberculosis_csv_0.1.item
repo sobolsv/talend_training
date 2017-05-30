@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Ws18cEUXEee6Hs5jCdrq_Q" name="OutputFile_Tuberculosis_csv" dataPackage="_Ws18cUUXEee6Hs5jCdrq_Q" Server="Localhost 127.0.0.1" FilePath="D:/2017/talend_training/HomeWorks/HW1/Output.csv" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Ws18cUUXEee6Hs5jCdrq_Q" name="default" dataManager="_Ws18cEUXEee6Hs5jCdrq_Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Ws18ckUXEee6Hs5jCdrq_Q" id="__4D9EEUWEee6Hs5jCdrq_Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ws18c0UXEee6Hs5jCdrq_Q" name="HDI_RANK" label="HDI_RANK" length="-1" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ws18dEUXEee6Hs5jCdrq_Q" name="COUNTRY_NAME" label="COUNTRY_NAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ws18dUUXEee6Hs5jCdrq_Q" name="YEAR" label="YEAR" length="-1" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ws18dkUXEee6Hs5jCdrq_Q" name="DETECT_RATE" label="DETECT_RATE" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ws18d0UXEee6Hs5jCdrq_Q" name="BASIC_NUM" label="BASIC_NUM" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

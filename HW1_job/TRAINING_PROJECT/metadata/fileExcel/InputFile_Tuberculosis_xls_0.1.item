@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_t86WcURjEeeKUuZL962j0w" name="InputFile_Tuberculosis_xls" dataPackage="_t86WckRjEeeKUuZL962j0w" Server="Localhost 127.0.0.1" FilePath="D:/2017/talend_training/HomeWorks/HW1/Human Development Index trends, 1990–2014.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="2" FooterValue="0" LimitValue="0" SheetName="Table 2" firstColumn="1" lastColumn="9" thousandSeparator="," decimalSeparator="." selectAllSheets="true" sheetList="Table 2:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_t86WckRjEeeKUuZL962j0w" name="default" dataManager="_t86WcURjEeeKUuZL962j0w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_t86Wc0RjEeeKUuZL962j0w" id="_ej9PcERjEeeKUuZL962j0w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t86WdERjEeeKUuZL962j0w" name="HDI_RANK" label="HDI_RANK" length="-1" precision="-1" sourceType="" talendType="id_Integer" key="true">
+        <initialValue xmi:id="_t9EHcERjEeeKUuZL962j0w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t9EHcURjEeeKUuZL962j0w" name="COUNTRY_NAME" label="COUNTRY_NAME" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_t9EHckRjEeeKUuZL962j0w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t9EHc0RjEeeKUuZL962j0w" name="HDI_VAL_1900" label="HDI_VAL_1900" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_t9EHdERjEeeKUuZL962j0w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t9EHdURjEeeKUuZL962j0w" name="HDI_VAL_2000" label="HDI_VAL_2000" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_t9EHdkRjEeeKUuZL962j0w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t9EHd0RjEeeKUuZL962j0w" name="HDI_VAL_2010" label="HDI_VAL_2010" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_t9EHeERjEeeKUuZL962j0w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t9EHeURjEeeKUuZL962j0w" name="HDI_VAL_2011" label="HDI_VAL_2011" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_t9EHekRjEeeKUuZL962j0w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t9EHe0RjEeeKUuZL962j0w" name="HDI_VAL_2012" label="HDI_VAL_2012" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_t9EHfERjEeeKUuZL962j0w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t9EHfURjEeeKUuZL962j0w" name="HDI_VAL_2013" label="HDI_VAL_2013" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_t9EHfkRjEeeKUuZL962j0w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t9EHf0RjEeeKUuZL962j0w" name="HDI_VAL_2014" label="HDI_VAL_2014" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_t9EHgERjEeeKUuZL962j0w"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
