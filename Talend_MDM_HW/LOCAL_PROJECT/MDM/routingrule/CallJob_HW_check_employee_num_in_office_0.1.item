@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSRoutingRuleE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_o7vQUYEkEeeyBr0EAgaVWw" name="CallJob_HW_check_employee_num_in_office" description="Trigger that calls the Talend Job: HW_check_employee_num_in_office" timestamp="1502738288998" digestValue="73b6e02c3227cf7dd6f47f462a984de8" lastServerName="SS_server" concept="Update" serviceJNDI="amalto/local/service/callJob" parameters="&lt;configuration> &#xA;    &lt;url>ltj://HW_check_employee_num_in_office/0.1&lt;/url>&#xA;&lt;/configuration>" condition="C1 Or C2 Or C3">
+  <wsRoutingRuleExpressions xmi:id="_TFSE8IElEeeyBr0EAgaVWw" name="C1" xpath="Update/OperationType" value="CREATE">
+    <wsOperator xmi:id="_TFSE8YElEeeyBr0EAgaVWw" value="CONTAINS"/>
+  </wsRoutingRuleExpressions>
+  <wsRoutingRuleExpressions xmi:id="_TFSE8oElEeeyBr0EAgaVWw" name="C2" xpath="Update/OperationType" value="UPDATE">
+    <wsOperator xmi:id="_TFSE84ElEeeyBr0EAgaVWw" value="CONTAINS"/>
+  </wsRoutingRuleExpressions>
+  <wsRoutingRuleExpressions xmi:id="_TFSE9IElEeeyBr0EAgaVWw" name="C3" xpath="Update/OperationType" value="DELETE">
+    <wsOperator xmi:id="_TFSE9YElEeeyBr0EAgaVWw" value="CONTAINS"/>
+  </wsRoutingRuleExpressions>
+</mdmserverobject:WSRoutingRuleE>

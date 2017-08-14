@@ -1,0 +1,45 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://www.w3.org/2001/XMLSchema"/>
+<xsd:element name="office">
+<xsd:complexType>
+<xsd:all>
+                <xsd:element maxOccurs="1" minOccurs="1" name="officeId" type="xsd:int"/>
+                <xsd:element maxOccurs="1" minOccurs="0" name="officeName" type="xsd:string"/>
+                <xsd:element maxOccurs="1" minOccurs="0" name="city" type="xsd:string"/>
+                <xsd:element maxOccurs="1" minOccurs="0" name="country" type="xsd:string"/>
+                <xsd:element maxOccurs="1" minOccurs="0" name="address" type="xsd:string"/>
+                <xsd:element maxOccurs="1" minOccurs="0" name="zipCode" type="xsd:string"/>
+            </xsd:all>
+</xsd:complexType>
+        <xsd:unique name="office">
+<xsd:selector xpath="."/>
+<xsd:field xpath="officeId"/>
+</xsd:unique>
+    </xsd:element>
+<xsd:simpleType name="AUTO_INCREMENT">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+    <xsd:element name="employee">
+<xsd:complexType>
+<xsd:all>
+<xsd:element name="employeeId" type="AUTO_INCREMENT"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="firstName" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="lastName" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="email" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="startDate" type="xsd:date"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="primaryCity" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="employeeSourceId" type="xsd:int"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="officeId" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_ForeignKey">office/officeId</xsd:appinfo>
+<xsd:appinfo source="X_ForeignKey_NotSep">false</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:all>
+</xsd:complexType>
+<xsd:unique name="employee">
+<xsd:selector xpath="."/>
+<xsd:field xpath="employeeId"/>
+</xsd:unique>
+</xsd:element>
+</xsd:schema>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_GL3t4XwUEeeMIukHXDf0bQ" name="Browse_items_employee" description="[EN:employee]" timestamp="1502185508983" digestValue="f609545fff29920f0012cc624c13ed89" lastServerName="SS_server" transformerPK="">
+  <searchableBusinessElements>employee/employeeId</searchableBusinessElements>
+  <searchableBusinessElements>employee/firstName</searchableBusinessElements>
+  <searchableBusinessElements>employee/lastName</searchableBusinessElements>
+  <searchableBusinessElements>employee/email</searchableBusinessElements>
+  <searchableBusinessElements>employee/startDate</searchableBusinessElements>
+  <viewableBusinessElements>employee/employeeId</viewableBusinessElements>
+  <viewableBusinessElements>employee/firstName</viewableBusinessElements>
+  <viewableBusinessElements>employee/lastName</viewableBusinessElements>
+  <viewableBusinessElements>employee/email</viewableBusinessElements>
+  <viewableBusinessElements>employee/startDate</viewableBusinessElements>
+  <viewableBusinessElements>employee/primaryCity</viewableBusinessElements>
+  <viewableBusinessElements>employee/employeeSourceId</viewableBusinessElements>
+  <viewableBusinessElements>employee/officeId</viewableBusinessElements>
+  <viewableBusinessElements>office/officeName</viewableBusinessElements>
+  <viewableBusinessElements>office/city</viewableBusinessElements>
+  <viewableBusinessElements>office/country</viewableBusinessElements>
+  <viewableBusinessElements>office/address</viewableBusinessElements>
+  <whereConditions xmi:id="_QJV4EHweEeeMIukHXDf0bQ" leftPath="employee/officeId" rightValueOrPath="office/officeId">
+    <stringPredicate xmi:id="_QJV4EXweEeeMIukHXDf0bQ" value="NONE"/>
+    <operator xmi:id="_QJV4EnweEeeMIukHXDf0bQ" value="JOIN"/>
+  </whereConditions>
+  <isTransformerActive xmi:id="_QJV4E3weEeeMIukHXDf0bQ"/>
+</mdmserverobject:WSViewE>

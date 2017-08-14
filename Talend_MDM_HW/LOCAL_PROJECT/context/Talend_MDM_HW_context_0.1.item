@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_Cp5s4ID_EeeJqsnQHdTxEg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_Cp5s44D_EeeJqsnQHdTxEg" comment="" name="Data_model_employee" prompt="Data_model_employee?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_Cp5s5ID_EeeJqsnQHdTxEg" comment="" name="Data_container_empoyee" prompt="Data_container_empoyee?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_dlqvwID_EeeJqsnQHdTxEg" comment="" name="MDM_server_URL" prompt="MDM_server_URL?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_dlqvwYD_EeeJqsnQHdTxEg" comment="" name="MDM_server_user_name" prompt="MDM_server_user_name?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_dlqvwoD_EeeJqsnQHdTxEg" comment="" name="MDM_server_pass" prompt="MDM_server_pass?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_Cp5s5YD_EeeJqsnQHdTxEg" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_Cp5s6ID_EeeJqsnQHdTxEg" comment="" name="Data_model_employee" prompt="Data_model_employee?" promptNeeded="false" type="id_String" value="hw_employee_office"/>
+    <contextParameter xmi:id="_Cp5s6YD_EeeJqsnQHdTxEg" comment="" name="Data_container_empoyee" prompt="Data_container_empoyee?" promptNeeded="false" type="id_String" value="hw_employee_office"/>
+    <contextParameter xmi:id="_dlqvw4D_EeeJqsnQHdTxEg" comment="" name="MDM_server_URL" prompt="MDM_server_URL?" promptNeeded="false" type="id_String" value="http://localhost:8080/talendmdm/services/soap"/>
+    <contextParameter xmi:id="_dlqvxID_EeeJqsnQHdTxEg" comment="" name="MDM_server_user_name" prompt="MDM_server_user_name?" promptNeeded="false" type="id_String" value="administrator"/>
+    <contextParameter xmi:id="_dlqvxYD_EeeJqsnQHdTxEg" comment="" name="MDM_server_pass" prompt="MDM_server_pass?" promptNeeded="false" type="id_String" value="administrator"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_Cp5s6oD_EeeJqsnQHdTxEg" confirmationNeeded="false" name="prod">
+    <contextParameter xmi:id="_Cp5s7YD_EeeJqsnQHdTxEg" comment="" name="Data_model_employee" prompt="Data_model_employee?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_Cp5s7oD_EeeJqsnQHdTxEg" comment="" name="Data_container_empoyee" prompt="Data_container_empoyee?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_dlqvxoD_EeeJqsnQHdTxEg" comment="" name="MDM_server_URL" prompt="MDM_server_URL?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_dlqvx4D_EeeJqsnQHdTxEg" comment="" name="MDM_server_user_name" prompt="MDM_server_user_name?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_dlqvyID_EeeJqsnQHdTxEg" comment="" name="MDM_server_pass" prompt="MDM_server_pass?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

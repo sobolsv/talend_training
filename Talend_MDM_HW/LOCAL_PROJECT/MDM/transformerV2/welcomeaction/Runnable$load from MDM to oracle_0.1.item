@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSTransformerV2E xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_0NB6MYErEeeyBr0EAgaVWw" name="Runnable#load from MDM to oracle" description="Runnable#load from MDM to oracle template process">
+  <processSteps xmi:id="_0NB6MoErEeeyBr0EAgaVWw" pluginJNDI="amalto/local/transformer/plugin/xslt" description="Redirect" parameters="&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:mdm=&quot;java:com.amalto.core.plugin.base.xslt.MdmExtension&quot; version=&quot;1.0&quot;>&#xA;&lt;xsl:output method=&quot;xml&quot; indent=&quot;yes&quot; omit-xml-declaration=&quot;yes&quot;/>&#xA;&lt;xsl:template match=&quot;/&quot; priority=&quot;1&quot;>&#xA;&lt;results>&#xA;&lt;item>&#xA;&lt;attr>&lt;/attr>&#xA;&lt;/item>&#xA;&lt;/results>&#xA;&lt;/xsl:template>&#xA;&lt;/xsl:stylesheet>">
+    <inputMappings xmi:id="_0NB6M4ErEeeyBr0EAgaVWw" pipelineVariable="_DEFAULT_" pluginVariable="xml"/>
+    <outputMappings xmi:id="_0NB6NIErEeeyBr0EAgaVWw" pipelineVariable="output" pluginVariable="text"/>
+  </processSteps>
+</mdmserverobject:WSTransformerV2E>

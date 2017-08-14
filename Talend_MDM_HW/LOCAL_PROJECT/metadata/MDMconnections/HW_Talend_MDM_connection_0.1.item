@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:org.talend.cwm.xml="http://www.talend.org/cwm/resource/xml/2010">
+  <TalendMetadata:MDMConnection xmi:id="_Ove_0IEZEeeyBr0EAgaVWw" name="HW_Talend_MDM_connection" label="HW_Talend_MDM_connection" dataPackage="_zsuusYEZEeeyBr0EAgaVWw" version="s60" Username="administrator" Password="gYS5jltDdzLSfHIqaDxbXg==" Datamodel="hw_employee_office" Datacluster="hw_employee_office" serverUrl="http://localhost:8080/talendmdm/services/soap">
+    <schemas xmi:id="_Z35esIEZEeeyBr0EAgaVWw" label="employeeReceive" LoopExpression="/employee/employeeId" LoopLimit="50" conceptType="RECEIVE" xPathPrefix="NONE_ITEM">
+      <conceptTargets xmi:id="_kcamUIEZEeeyBr0EAgaVWw" targetName="officeId" RelativeLoopExpression="../officeId"/>
+    </schemas>
+    <schemas xmi:id="_TpF2QIEdEeeyBr0EAgaVWw" label="employeeIn" LoopExpression="/employee/employeeId" LoopLimit="50">
+      <conceptTargets xmi:id="_YNKeYIEdEeeyBr0EAgaVWw" targetName="officeId" RelativeLoopExpression="../officeId"/>
+    </schemas>
+  </TalendMetadata:MDMConnection>
+  <org.talend.cwm.xml:TdXmlSchema xmi:id="_zsuusYEZEeeyBr0EAgaVWw" name="hw_employee_office" dataManager="_Ove_0IEZEeeyBr0EAgaVWw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zsuusoEZEeeyBr0EAgaVWw" id="_zsuusIEZEeeyBr0EAgaVWw" label="employeeReceive">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zsuus4EZEeeyBr0EAgaVWw" label="officeId" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ZMfNYYEdEeeyBr0EAgaVWw" id="_ZMfNYIEdEeeyBr0EAgaVWw" label="employeeIn">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZMfNYoEdEeeyBr0EAgaVWw" label="officeId" talendType="id_String"/>
+    </ownedElement>
+  </org.talend.cwm.xml:TdXmlSchema>
+</xmi:XMI>
